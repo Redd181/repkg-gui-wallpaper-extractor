@@ -1,0 +1,146 @@
+# ===========================================
+# Python specific
+# ===========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# ===========================================
+# Virtual Environment
+# ===========================================
+# Virtual environment directory (your .venv folder)
+.venv/
+venv/
+env/
+ENV/
+
+# ===========================================
+# PyInstaller specific
+# ===========================================
+# Build directories (your build and dist folders)
+build/
+dist/
+
+# PyInstaller spec file is kept, but build artifacts are ignored
+# RePKG-GUI.spec should be kept in version control
+
+# ===========================================
+# External tools
+# ===========================================
+# RePKG executable (downloaded separately, not part of source)
+RePKG.exe
+
+# ===========================================
+# Lock files and temporary files
+# ===========================================
+# Your project's lock file
+w.lock
+*.lock
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+
+# ===========================================
+# IDE and Editor files
+# ===========================================
+# PyCharm / IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ===========================================
+# OS specific files
+# ===========================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.lnk
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon*
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ===========================================
+# Logs and debugging
+# ===========================================
+# Log files
+*.log
+logs/
+debug.log
+
+# ===========================================
+# Configuration files (if any)
+# ===========================================
+# Local configuration files
+config.ini
+settings.json
+.env
+.env.local
+
+# ===========================================
+# Python packaging
+# ===========================================
+# Distribution / packaging
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===========================================
+# Testing and coverage
+# ===========================================
+# Unit test / coverage reports
+.coverage
+.coverage.*
+.cache
+htmlcov/
+.tox/
+.pytest_cache/
+
+# ===========================================
+# Documentation
+# ===========================================
+# Sphinx documentation
+docs/_build/
+
+# ===========================================
+# Files to KEEP in version control
+# ===========================================
+# These files should be committed:
+# - img/           (your image resources)
+# - icon.ico       (application icon)
+# - LICENSE        (license file)
+# - pyproject.toml (project configuration)
+# - README.md      (project documentation)
+# - RePKG-GUI.spec (PyInstaller configuration)
+# - repkg_gui.py   (main application)
